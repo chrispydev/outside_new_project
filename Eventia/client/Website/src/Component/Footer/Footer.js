@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
-import logo1 from '../../assets/img/logo/logo.svg';
+// import logo1 from '../../assets/img/logo/logo.svg';
+import logo1 from '../../assets/img/logo/logo.png';
 import logo2 from '../../assets/img/logo/dsu.png';
 
 const Styles = styled.div`
@@ -185,8 +186,14 @@ class Footer extends Component {
       <Styles>
         <footer>
           <Container className='footerin'>
-            <Row className='row'>
-              <Col md={3} className='Headbox'>
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignContent: 'center',
+              }}
+            >
+              <Col md={4} className='Headbox'>
                 <div className='head'>
                   <div className='bottom'>
                     <div className='logobox'>
@@ -197,67 +204,18 @@ class Footer extends Component {
                     <ul className='Social'>
                       <li className='lists'>
                         {' '}
-                        <SocialIcon url='http://twitter.com' />
+                        <SocialIcon url='http://twitter.com/his_greeneness' />
                       </li>
+
                       <li className='lists'>
                         {' '}
-                        <SocialIcon url='http://facebook.com' />
-                      </li>
-                      <li className='lists'>
-                        {' '}
-                        <SocialIcon url='https://github.com' />
-                      </li>
-                      <li className='lists'>
-                        {' '}
-                        <SocialIcon url='https://instagram.com' />
+                        <SocialIcon url='https://github.com/chrispydev' />
                       </li>
                     </ul>
                   </center>
                 </div>
               </Col>
-              <Col
-                md={6}
-                style={{
-                  marginTop: 'auto',
-                  marginBottom: 'auto',
-                  paddingBottom: 47,
-                }}
-              >
-                <div className='head'>
-                  <div className='bottom'>
-                    <div className='logobox'>
-                      <img src={logo2} alt='temp' />
-                    </div>
-                  </div>
-                </div>
-              </Col>
-
-              <Col
-                md={3}
-                style={{
-                  marginTop: 'auto',
-                  marginBottom: 'auto',
-                  paddingBottom: 47,
-                }}
-              >
-                <div className='head'>
-                  <h4 className='headtitle'> Subscribe to our Newsletter</h4>
-                  <div className='bottom'></div>
-                  <div className='Emailbox'>
-                    <input
-                      type='email'
-                      className='Form'
-                      placeholder='Email here'
-                      style={{ marginBottom: 20 }}
-                    />
-                    <Button className='btn btn-rounded btn-block btn-primary'>
-                      {' '}
-                      Subscribe{' '}
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-            </Row>
+            </div>
           </Container>
         </footer>
 

@@ -4,7 +4,8 @@ import Styled from 'styled-components';
 
 import { Container, Navbar, Nav } from 'react-bootstrap';
 
-import logo from '../../assets/img/logo/logo.svg';
+// import logo from '../../assets/img/logo/logo.svg';
+import logo from '../../assets/img/logo/logo.png';
 
 const Styles = Styled.div`
 
@@ -75,9 +76,9 @@ class Navigationbar extends Component {
               <Navbar.Brand href='/'>
                 <img
                   src={logo}
-                  width='150'
-                  height='100'
-                  className='d-inline-block align-top m-0'
+                  // width='120'
+                  // height='90'
+                  className='d-inline-block align-top m-0 img-style'
                   alt='outside Logo'
                 />
               </Navbar.Brand>

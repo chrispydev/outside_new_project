@@ -116,7 +116,7 @@ const Organizers = () => {
               <Col className='Lower'>
                 <img src={first} alt='temp' className='team-img' />
                 <Col className='info'>
-                  <h5 className='name'>Syed Darij Ali</h5>
+                  <h5 className='name'>Raph</h5>
                   <p className='pos'> Head Website Designer </p>
                 </Col>
               </Col>
@@ -126,7 +126,7 @@ const Organizers = () => {
               <Col className='Lower'>
                 <img src={second} alt='temp' className='team-img' />
                 <Col className='info'>
-                  <h5 className='name'>Noor Muhammad</h5>
+                  <h5 className='name'>Jerimah Greene</h5>
                   <p className='pos'> Head Database and Admin Panel </p>
                 </Col>
               </Col>
@@ -136,7 +136,7 @@ const Organizers = () => {
               <Col className='Lower'>
                 <img src={third} alt='temp' className='team-img' />
                 <Col className='info'>
-                  <h5 className='name'>Usama Imran</h5>
+                  <h5 className='name'>Salim</h5>
                   <p className='pos'> Head Graphic Designer and Database </p>
                 </Col>
               </Col>
