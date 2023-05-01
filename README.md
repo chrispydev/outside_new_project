@@ -28,7 +28,7 @@ First, Clone the repository
 
 **For Front-end**
 
-- Install all the dependencies in the Website and Admin Folder incside client folder
+- Install all the dependencies in the Website and Admin Folder inside client folder
 - Run the Application
 
 **For Back-end**
